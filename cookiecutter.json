@@ -2,8 +2,10 @@
 	"project": "project",
 	"repo_name": "{{ cookiecutter.project.lower().replace(' ', '_') }}",
 	"author": "Your name or (Name of organization/company/team)",
-	"version": "0.1",
 	"description": "A short description of the project.",
 	"open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
-	"python_interpreter": ["python3", "python"]
+	"python_interpreter": ["python3", "python"],
+	"python_version": "3.9",
+	"environment_name": "{{ cookiecutter.repo_name}}",
+	"logo": ["explore", "exploreXlombard"]
 }
