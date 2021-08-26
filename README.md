@@ -29,8 +29,6 @@ $ conda install cookiecutter
     cookiecutter -c v1 https://github.com/KatlegoLionel/Explore_custom_template.git
 
 
-[![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
-
 ### New version of Cookiecutter 
 ------------
 Cookiecutter will move to v2 soon, which will entail using
