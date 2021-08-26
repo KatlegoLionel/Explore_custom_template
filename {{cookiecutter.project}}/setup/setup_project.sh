@@ -4,7 +4,7 @@ if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]
 then
   echo "Setting up project"
   conda create -y --name {{cookiecutter.environment_name}} python={{cookiecutter.python_version}}
-  source ~/anaconda3/etc/profile.d/conda.sh
+  source ~/anaconda3_1/etc/profile.d/conda.sh
   conda activate {{cookiecutter.environment_name}}
   pip install -r requirements.txt
 else
